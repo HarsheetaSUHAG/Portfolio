@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+    <div class="hero-wrapper">
+    <div id="particles-js"></div>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="hero">
+            <div class="hero-intro">
+                <img src="assests/profilepic.png" alt="a photo of yours" class="profile-img">
+                <span class="waving-hand">👋</span>
+            </div>
+            
+            <p> Hi, I’m Harsheeta Suhag, a passionate 3rd-year Computer Science Engineering (CSE) student at Chandigarh University with a strong interest in Web Development and Data Structures & Algorithms (DSA).
+💻 As an aspiring Full-Stack Developer, I enjoy building dynamic and responsive web applications using modern technologies like HTML, CSS, JavaScript, React,Bootstarp, and Tailwind CSS. My problem-solving skills are sharpened through DSA in Java, where I consistently practice on platforms like LeetCode, CodeChef, and GeeksforGeeks.
+
+🚀 I thrive on turning ideas into functional solutions and am always eager to learn new frameworks and technologies. My goal is to contribute to innovative projects while continuously improving my technical expertise.
+
+📚 Currently, I’m expanding my knowledge in backend development, system design, and competitive programming to become a well-rounded software engineer. 
+            </p>
+            <div class="cta-buttons">
+                <a href="https://www.linkedin.com/in/harsheetasuhag/" target="_blank" class="btn btn-secondary">LinkdIn</a>
+                <a href="https://github.com/HarsheetaSUHAG" target="_blank" class="btn btn-primary">GitHub</a>
+            </div>
+        </main>
+    </div>
+</div>
+
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2 class="projects-title" >My Projects</h2>
+        <div class="project-list">
+        
+            <!-- ===== PROJECT CARD 1 ===== -->
+            <div class="project-card">
+                <div class="project-details">
+                    <h3>Personal Finance Dashboard</h3>
+                    <div class="project-tech">
+                        <span>Made with: HTML-5,CSS3</span>
+                        <img src="assests/html5-brands-solid.svg" alt="HTML icon" title="html">
+                        <!--<img src="https://www.svgrepo.com/show/353925/javascript.svg" alt="JavaScript icon" title="JavaScript">-->
+                        <img src="assests/css-logo.png" alt="CSS icon" title="CSS">
+                    </div>
+                    <p>
+                        Developed an interactive Personal Finance Dashboard using HTML and CSS to help users track their income, expenses, and savings in a visually appealing and user-friendly interface. This dashboard provides a clear overview of financial health with categorized spending insights, budget progress, and transaction history.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-light-outline">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <!-- FIX: Make sure you have an actual image file here -->
+                    <img src="project-1-image.png" alt="Screenshot of Project One">
+                </div>
+            </div>
+
+            <!-- ===== PROJECT CARD 2 (Alternating Layout) ===== -->
+            <div class="project-card">
+                <div class="project-details">
+                    <h3>CampusBytes</h3>
+                    <div class="project-tech">
+                        <span>Made with:</span>
+                        <img src="assests/python.jpeg" alt="React icon" title="React">
+                        <img src="https://www.svgrepo.com/show/353925/javascript.svg" alt="JavaScript icon" title="JavaScript">
+                        <img src="assests/css-logo.png " alt="CSS icon" title="CSS">
+                        <img src="assests/html5-brands-solid.svg" alt="HTML icon" title="html">
+                        
+                    </div>
+                    <p>
+                       Designed and developed CampusBytes, a college-based e-commerce platform where students can conveniently place online orders from various on-campus food shops. Built with HTML, CSS, JavaScript (Frontend) and Python (Backend), this system simplifies food ordering, reduces queues, and enhances campus life. 
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/HarsheetaSUHAG/CampusByte" class="btn btn-light-outline">GitHub</a>
+                    </div>
+                </div>
+                <!-- FIX: The image div must be INSIDE the project-card div -->
+                <div class="project-image">
+                    <img src="project-2-image.png" alt="Screenshot of Project Two">
+                </div>
+            </div>
+
+            <!-- Add more project-card divs here -->
+
+        </div>
+    </div>
+</section>
+<!------------SKILLS---------->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="skills-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <!--Backend Category-->
+                <h4>Backend</h4>
+                <div class="skills-pills">
+                   <div class="skill-pill"><img src="assests/python.jpeg" alt="Python"><span>Python</span></div> 
+                   <div class="skill-pill"><img src="https://www.svgrepo.com/show/373848/mysql.svg" alt="MySQL"><span>MySQL</span></div>
+                   <div class="skill-pill"><img src="assests/clang.jpg" alt="c++"><span>C/C++</span></div>
+                   <div class="skill-pill"><img src="assests/javascript.svg" alt="Java"><span>Java</span></div>
+                </div>
+            </div>
+            <!--FrontEnd category-->
+            <div class="skill-category">
+                <h4>Frontend</h4>
+                <div class="skills-pills">
+                    <div class="skill-pill"><img src="https://www.svgrepo.com/show/354259/react.svg" alt="React"><span>React.js</span></div>
+                    <div class="skill-pill"><img src="assests/html5-brands-solid.svg" alt="HTML5"><span>HTML5</span></div>
+                    <div class="skill-pill"><img src="assests/css-logo.png" alt="CSS3"><span>CSS3</span></div>
+                    <div class="skill-pill"><img src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="Tailwind CSS"><span>Tailwind CSS</span></div>
+                    <div class="skill-pill"><img src="assests/bootstrap.png" alt="CSS3"><span>BootStrap</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+    <h4>Tools</h4>
+    <div class="skill-pills">
+        <div class="skill-pill"><img src="assests/pycharm.jpeg" alt="PyCharm"><span>PyCharm</span></div>
+        <div class="skill-pill"><img src="assests/git.png" alt="Git"><span>Git</span></div>
+        <div class="skill-pill"><img src="assests/github.png" alt="Git"><span>GitHub</span></div>
+
+        <div class="skill-pill">
+            <img src="assests/selenium.png" alt="Selenium">
+            <span>Selenium</span>
+        </div>
+    </div>
+</div>
+            <!--Practices-->
+            <div class="skill-category">
+                <h4>Practices</h4>
+                <div class="skill-pill">
+                    <span >Object Oriented Programming (OOP)</span>
+                </div>
+                <div class="skill-pill">
+                    <span >Data Structure & Algorithm(DSA)</span>
+                </div>
+                <div class="skill-pill">
+                    <span >Unit Testing</span>
+                </div>
+                <div class="skill-pill">
+                    <span >Code Review</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!------MY EXPERIENCE-->
+<section id="experience" class="experience-section">
+    <div class="container">
+        <h2 class="experience-title">My Experience</h2>
+        <div class="timeline">
+            <!--Experience 1-->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Geeks For Geeks-CU chapter</h4>
+                    <h5>Core Team Member|Anchor| Content Creator|Team Management|Leadership</h5>
+                    <p>I anchor events, connect with companies for collaborations & sponsorships, and drive tech community initiatives. Let's build something great!</p>
+                </div>
+                <div class="timeline-marker">
+                    <img src="assests/geeks.png" alt="geeksforgeeks logo">
+                </div>
+                <div class="timeline-period">
+                    <span>December 2024-ongoing</span>
+                </div>
+            </div>
+            <!--EXPERIENCE ITEM 2-->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Excellence Technology, Mohali</h4>
+                    <h5>Training and Internship in Web development</h5>
+                    <p> I craft clean, functional web solutions with a focus on user experience. Passionate about turning ideas into reality through code. Constantly exploring new technologies and frameworks to build efficient, scalable applications.</p>
+                </div>
+                <div class="timeline-marker">
+                    <img src="assests/excellence.png" alt=" logo">
+                </div>
+                <div class="timeline-period">
+                    <span> 2025 May-June</span>
+                </div>
+            </div>
+            <!--EXPERIENCE 3 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Rotract Club-CU</h4>
+                    <h5>Student Coordinator|Community Builder|Social Impact Enthusiast</h5>
+                    <p>I have organized donation drives, lead volunteer teams, and create meaningful change through community initiatives. Passionate about service, teamwork, and turning compassion into action.</p>
+                </div>
+                <div class="timeline-marker">
+                    <img src="assests/rotary.png" alt=" logo">
+                </div>
+                <div class="timeline-period">
+                    <span>2023-2024</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--EDUCATIONS-->
+<section id="education" class="education-section">
+    <div class="container">
+        <h2 class="section-title">My education</h2>
+        <div class="education-card">
+            <div class="education-logo">
+                <img src="assests/CU.png" alt="cu logo">
+            </div>
+            <div class="education-details">
+                <h4>Bachelors of Enginnering</h4>
+                <p class="education-university">Chandigarh University</p>
+                <p class="education-meta">Graduation year:2027</p>
+                <p class="education-meta">Cgpa:7.4</p>
+                <ul>
+                    <li>Actively participated in debates,Gds leading to exceptional communication and interpersonal skills .</li>
+                    <li>Hosted Hackathons and various tech related events. </li>
+                    <li>Published book reviews.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- =CONTACT SECTION= -->
+ <section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Contact me</h2>
+        <p class="contact-intro">Please contact me directly at <a href="mailto:suhagharsheeta@gmail.com">suhagharsheeta@gmail.com</a> or through this form</p>
+        <form action="#" method="POST" class="contact-form">
+            <input type="email" name="email" placeholder="Your email required">
+            <textarea name="message" rows="7" placeholder="Your message required"></textarea>
+            <button type="submit" class="btn btn-dark">Submit!
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"> <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/></svg>
+            </button>
+        </form>
+    </div>
+ </section>
+    <script src="app.js"></script>
+</body>
+</html>
